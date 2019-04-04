@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdActivity">
+
+    <RelativeLayout
+        android:id="@+id/RL1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f8f8f8"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+                android:id="@+id/TV1"
+                app:fontFamily="@font/rubik_regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="45dp"
+                android:text="Nama Panggilan Kamu"
+                android:textAlignment="center"
+                android:textColor="#202020"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+        <EditText
+            android:id="@+id/ET1"
+            android:layout_width="345dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="100dp"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:hint="Contoh:Budi"
+            android:inputType="textPersonName"
+            android:textColor="#202020"
+            android:gravity="left"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:visibility="visible"
+            app:fontFamily="@font/rubik_regular" />
+
+        <TextView
+                android:id="@+id/TV2"
+                app:fontFamily="@font/rubik_regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="170dp"
+                android:text="Umur Kamu"
+                android:textAlignment="center"
+                android:textColor="#202020"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/ET2"
+                android:layout_width="345dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="220dp"
+                android:layout_centerHorizontal="true"
+                android:ems="10"
+                android:hint="Contoh:12"
+                android:inputType="textPersonName"
+                android:textColor="#202020"
+                android:gravity="left"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:visibility="visible"
+                app:fontFamily="@font/rubik_regular" />
+
+
+        <Button
+            android:id="@+id/BT1"
+            app:fontFamily="@font/nunito_bold"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/rounded_button1"
+            android:text="Selanjutnya"
+            android:textAllCaps="false"
+            android:textColor="#202020" />
+
+    </RelativeLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
